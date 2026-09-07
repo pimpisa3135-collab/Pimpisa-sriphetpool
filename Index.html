@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>พิมพิศา ศรีเพชรพูล — Resume</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Noto+Sans+Thai:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1B2A3A;
+    --paper: #FAF7F0;
+    --gold: #B8925A;
+    --slate: #5C6B7A;
+    --white: #FFFFFF;
+    --line: rgba(27, 42, 58, 0.14);
+  }
+
+- { box-sizing: border-box; }
+
+body {
+margin: 0;
+background: var(–paper);
+color: var(–ink);
+font-family: ‘Noto Sans Thai’, ‘Inter’, sans-serif;
+line-height: 1.7;
+font-weight: 400;
+}
+
+.page {
+max-width: 960px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: 260px 1fr;
+min-height: 100vh;
+}
+
+/* LEFT COLUMN */
+.sidebar {
+background: var(–ink);
+color: var(–paper);
+padding: 56px 32px;
+display: flex;
+flex-direction: column;
+gap: 40px;
+}
+
+.sidebar .name {
+font-family: ‘Source Serif 4’, ‘Noto Sans Thai’, serif;
+font-size: 1.9rem;
+font-weight: 600;
+line-height: 1.3;
+margin: 0 0 6px 0;
+}
+
+.sidebar .role {
+color: var(–gold);
+font-size: 0.95rem;
+font-weight: 500;
+margin: 0;
+}
+
+.side-block h2 {
+font-size: 0.78rem;
+letter-spacing: 0.03em;
+color: var(–gold);
+margin: 0 0 12px 0;
+font-weight: 600;
+border-bottom: 1px solid rgba(250, 247, 240, 0.2);
+padding-bottom: 8px;
+}
+
+.side-block p, .side-block li {
+font-size: 0.9rem;
+color: rgba(250, 247, 240, 0.88);
+margin: 0 0 4px 0;
+}
+
+.side-block ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+/* RIGHT COLUMN */
+.main {
+background: var(–white);
+padding: 56px 48px;
+}
+
+.main section {
+margin-bottom: 44px;
+}
+
+.main section:last-child {
+margin-bottom: 0;
+}
+
+.eyebrow {
+font-size: 0.78rem;
+color: var(–slate);
+margin: 0 0 4px 0;
+}
+
+.main h2 {
+font-family: ‘Source Serif 4’, ‘Noto Sans Thai’, serif;
+font-size: 1.4rem;
+font-weight: 600;
+color: var(–ink);
+margin: 0 0 18px 0;
+position: relative;
+padding-bottom: 12px;
+}
+
+.main h2::after {
+content: “”;
+position: absolute;
+left: 0;
+bottom: 0;
+width: 40px;
+height: 3px;
+background: var(–gold);
+}
+
+.statement {
+font-size: 1.08rem;
+color: var(–ink);
+max-width: 60ch;
+}
+
+.entry {
+display: grid;
+grid-template-columns: 130px 1fr;
+gap: 20px;
+padding: 18px 0;
+border-top: 1px solid var(–line);
+}
+
+.entry:first-of-type {
+border-top: none;
+padding-top: 0;
+}
+
+.entry .period {
+font-size: 0.85rem;
+color: var(–slate);
+padding-top: 2px;
+}
+
+.entry .detail-title {
+font-weight: 600;
+margin: 0 0 4px 0;
+color: var(–ink);
+}
+
+.entry .detail-body {
+font-size: 0.95rem;
+color: var(–slate);
+margin: 0;
+}
+
+footer {
+grid-column: 1 / -1;
+text-align: center;
+font-size: 0.8rem;
+color: var(–slate);
+padding: 24px 0 32px 0;
+}
+
+@media (max-width: 720px) {
+.page {
+grid-template-columns: 1fr;
+}
+.sidebar {
+padding: 40px 28px;
+}
+.main {
+padding: 40px 28px;
+}
+.entry {
+grid-template-columns: 1fr;
+gap: 4px;
+}
+}
+</style>
+
+</head>
+<body>
+
+<div class="page">
+
+  <aside class="sidebar">
+    <div>
+      <p class="name">พิมพิศา<br>ศรีเพชรพูล</p>
+      <p class="role">นักเศรษฐศาสตร์สายวิทยาข้อมูล</p>
+    </div>
+
+```
+<div class="side-block">
+  <h2>ติดต่อ</h2>
+  <ul>
+    <li>เขตดินแดง</li>
+    <li>กรุงเทพมหานคร ประเทศไทย</li>
+  </ul>
+</div>
+
+<div class="side-block">
+  <h2>การศึกษา</h2>
+  <p style="font-weight:600; color:var(--paper);">คณะเศรษฐศาสตร์</p>
+  <p>มหาวิทยาลัยหอการค้าไทย (UTCC)</p>
+</div>
+
+<div class="side-block">
+  <h2>ความสนใจ</h2>
+  <ul>
+    <li>ฟังเพลง</li>
+  </ul>
+</div>
+```
+
+  </aside>
+
+  <main class="main">
+
+```
+<section>
+  <p class="eyebrow">เกี่ยวกับฉัน</p>
+  <h2>Profile</h2>
+  <p class="statement">
+    นักศึกษาคณะเศรษฐศาสตร์ มหาวิทยาลัยหอการค้าไทย ที่สนใจการนำข้อมูลมาวิเคราะห์เพื่อทำความเข้าใจพฤติกรรมทางเศรษฐกิจและธุรกิจ
+    มีความตั้งใจพัฒนาทักษะด้านเศรษฐศาสตร์ควบคู่กับวิทยาการข้อมูล เพื่อนำไปประยุกต์ใช้กับการตัดสินใจเชิงธุรกิจในโลกจริง
+  </p>
+</section>
+
+<section>
+  <p class="eyebrow">ผลงานที่ผ่านมา</p>
+  <h2>ประสบการณ์ทำงาน</h2>
+  <div class="entry">
+    <div class="period">Part-time</div>
+    <div>
+      <p class="detail-title">งานพาร์ทไทม์</p>
+      <p class="detail-body">มีประสบการณ์ทำงานพาร์ทไทม์ ฝึกฝนทักษะการทำงานร่วมกับผู้อื่น การบริหารเวลา และความรับผิดชอบในงานที่ได้รับมอบหมาย</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <p class="eyebrow">ภาพรวมการเรียน</p>
+  <h2>การศึกษา</h2>
+  <div class="entry">
+    <div class="period">ปัจจุบัน</div>
+    <div>
+      <p class="detail-title">คณะเศรษฐศาสตร์</p>
+      <p class="detail-body">มหาวิทยาลัยหอการค้าไทย (University of the Thai Chamber of Commerce)</p>
+    </div>
+  </div>
+</section>
+```
+
+  </main>
+
+  <footer>© พิมพิศา ศรีเพชรพูล</footer>
+
+</div>
+
+</body>
+</html>
